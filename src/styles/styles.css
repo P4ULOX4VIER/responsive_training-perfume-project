@@ -1,0 +1,125 @@
+body {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color:#F2E9E4;
+
+  
+    
+}
+
+main {
+    display: flex;
+    /* align-items: center; */
+    width: 600px;
+    /* margin: 2 auto; */
+    border-radius: 20px;
+    flex-direction: row;
+    
+}
+
+
+
+main .section1 .perfume-desktop {
+    width: 300px;
+    height: 450px;
+    border-radius: 20px;
+    /* Apply a border radius to all corners */
+    border-top-right-radius: 0;
+    /* Reset the border radius for the top right corner */
+    border-bottom-right-radius: 0;/
+}
+
+
+main .section2 {
+    
+    height: 450px;
+    padding-top: 5px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    /* border-radius: 10px; */
+    border-radius: 20px;
+    /* Apply a border radius to all corners */
+    border-top-left-radius: 0;
+    /* Reset the border radius for the top left corner */
+    border-bottom-left-radius: 0;/
+}
+
+main .section2 .text-perfume {
+    font-family: 'montserrat', sans-serif;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    padding-top: 10px;
+    color: hsl(228, 12%, 48%);
+}
+
+main .section2 .name-perfume {
+    font-family: 'fraunces', bold;
+    font-size: 5vh;
+    padding: 10px 0;
+}
+
+main .section2 .perfume-description {
+    color: hsl(228, 12%, 48%);
+    font-family: 'montserrat', sans-serif;
+    padding-top: 5px;
+}
+
+
+
+main .section2 .price-perfume {
+    display: flex;
+    padding-top: 30px;
+    /* background-color: red; */
+}
+
+main .section2 .now {
+    font-family: 'fraunces';
+    font-size: 4vh;
+    color: hsl(158, 36%, 37%)
+}
+
+main .section2 .before {
+    padding-left: 20px;
+    padding-top: 8px;
+    font-size: 2vh;
+    color: hsl(228, 12%, 48%);
+
+}
+
+main .section2 .buttom {
+    margin: 20px -3px;
+    display: flex;
+    flex-direction: center;
+    background-color: hsl(158, 36%, 37%);
+    padding: 15px;
+    width: 250px;
+    border: 0px solid;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+main .section2 .buttom:hover {
+    cursor: pointer;
+    background-color: #18362A;
+    transition: 0.2;
+}
+
+main .section2 .image-cart {
+    width: 20px;
+    margin-right: 10px;
+}
+
+main .section2 .description-buttom {
+    font-family: 'montserrat';
+    font-weight: bold;
+    color: white;
+
+
+}

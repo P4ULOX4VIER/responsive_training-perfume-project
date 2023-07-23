@@ -1,0 +1,81 @@
+@media (max-width: 645px) {
+
+    #responsive-image{
+        content: url("../images/image-product-mobile.jpg");
+        width: 320px;
+        
+    }
+
+    main{
+        display: flex;
+        /* justify-content: center; */
+        flex-direction: column; 
+        place-items: center;
+        /* flex-wrap: wrap;  */
+        width: 250px; 
+        
+       
+    }
+
+
+    main .section2{
+        display: flex;
+        justify-content: center;
+        width: 320px;
+        height: 360px;
+        flex: 1; /* used to make the content grow to fill the available space*/
+        margin-top: -10px;  /* Adjust this value to remove the desired gap */
+        
+        
+    }
+
+    main .section1,
+    main .section2,
+    main .section1 .perfume-desktop{
+        border-radius: 0px;
+        
+    }
+
+    main .section2 #text-perfume{
+        font-size: 14px;
+    }
+
+    main .section2 .name-perfume{
+        font-size: 3vh;
+        /* line: width 5px;px; */
+    }
+
+    main .section2 .perfume-description{
+        font-size: 2vh;
+        align-items: center;
+        padding-right: 20px;
+    }
+
+    main .section1 .perfume-desktop {
+        height: 265px;
+        /* border: 0px solid; */
+        border-radius: 30px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;     
+
+    }
+
+    main .section2{
+        border-radius: 20px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+    
+    main .section2 .buttom{
+
+            margin: 20px 2px;
+    }
+
+
+
+
+
+
+
+
+}
