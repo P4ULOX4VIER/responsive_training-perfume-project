@@ -49,7 +49,7 @@ https://prnt.sc/45pgQTKfHIY0
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
+
 
 
 ### What I learned
